@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Service Details - INDUSTRIAL RESOURCES ARABIA</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- Favicons -->
+    <link href="assets/img/logo-IRA.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <style>
+        .page-title {
+            background-image: url(assets/img/bg_hero_1.webp);
+            background-position: bottom;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .page-title .heading {
+            background-color: #2b00005e;
+        }
+
+        .page-title nav {
+            background-color: #07000069 !important;
+        }
+
+        .container-22 {
+            display: flex;
+            width: 90%;
+            margin: 20px auto;
+            gap: 20px;
+        }
+
+        #safety-items {
+            padding: 10px 0;
+        }
+
+        .content div {
+            padding: 0;
+        }
+
+        #service-details .safety-dev {
+            display: flex !important;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .safety-img-ch div {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+        }
+
+        #service-details .safety-dev img {
+            width: 230px;
+            height: 230px;
+        }
+
+        /* Sidebar styling */
+        .sidebar {
+            flex: 1;
+            max-width: 250px;
+            background: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .sidebar h3 {
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sidebar li {
+            margin-bottom: 10px;
+            cursor: pointer;
+            padding: 8px;
+            border-radius: 4px;
+            background: #f5f5f5;
+            transition: background 0.3s;
+        }
+
+        .sidebar li:hover {
+            background: #e9ecef;
+        }
+
+        .sidebar li:active {
+            background: #e9ecef;
+        }
+
+        /* Content area styling */
+        .content {
+            flex: 3;
+            background: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .section {
+            display: none;
+        }
+
+        .section.active {
+            display: block;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .text-ul ul li {
+            padding: 5px 8px;
+            font-weight: 500;
+            font-family: "Poppins", sans-serif;
+            font-size: 12px;
+        }
+
+        .main .content div ul {
+            list-style-type: disc !important;
+            padding-left: 20px;
+            list-style: 20px;
+        }
+
+
+        #piping-materials img {
+            width: 135px !important;
+            height: 150px !important;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+
+            .sidebar {
+                max-width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+
+</head>
+
+<body class="service-details-page">
+
+    <header id="header" class="header fixed-top">
+
+        <div class="topbar d-flex align-items-center">
+            <div class="container d-flex justify-content-center justify-content-md-between">
+                <div class="contact-info d-flex align-items-center">
+                    <i class="bi bi-envelope d-flex align-items-center">
+                        <a href="mailto:info@ira.sa" style="text-decoration: none; color: inherit;">
+                            info@ira.sa
+                        </a>
+                    </i>
+                    <i class="bi bi-phone d-flex align-items-center ms-4"><span>+966-13-362-1234</span></i>
+                </div>
+                <div class="social-links d-none d-md-flex align-items-center">
+                    <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+                    <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- End Top Bar -->
+
+        <div class="branding d-flex align-items-cente">
+
+            <div class="container position-relative d-flex align-items-center justify-content-between"
+                style="flex-direction: row;">
+                <a href="index.html" class="logo d-flex align-items-center">
+                    <img src="assets/img/logo-IRA.png" alt="">
+                    <SPan>
+                        INDUSTRIAL RESOURCES ARABIA CO. LTD
+                    </SPan>
+                </a>
+
+                <nav id="navmenu" class="navmenu">
+                    <ul>
+                        <li><a href="index.html">Home<br></a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="service-details.html" class="active">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+                </nav>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <main class="main">
+
+        <!-- Page Title -->
+        <div class="page-title">
+            <div class="heading">
+                <div class="container">
+                    <div class="row d-flex justify-content-center text-center">
+                        <div class="col-lg-8">
+                            <h1>What We Do</h1>
+                            <p class="mb-0">
+                                At IRA, we deliver tailored solutions across industries, offering top-quality safety
+                                items, tools, construction materials, and advanced systems to meet your unique
+                                needs—ensuring reliability and excellence in every service we provide.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="breadcrumbs">
+                <div class="container">
+                    <ol>
+                        <li><a href="index.html">Home</a></li>
+                        <li class="current">Service</li>
+                    </ol>
+                </div>
+            </nav>
+        </div><!-- End Page Title -->
+
+        <!-- Service Details Section -->
+        <section id="service-details" class="">
+
+            <div class="container container-22">
+                <div class="sidebar">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li data-section="safety-items">Safety Items</li>
+                        <li data-section="general-tools">General Tools & Accessories</li>
+                        <li data-section="construction-materials">Civil & Construction Materials</li>
+                        <li data-section="electrical-mechanical">Electrical & Mechanical</li>
+                        <li data-section="instrumentations">Instrumentations</li>
+                        <li data-section="piping-materials">Piping Materials</li>
+                    </ul>
+                </div>
+                <div class="content">
+                    <div id="safety-items" class="section active">
+                        <h2>Safety Items</h2>
+                        <div class="safety-dev">
+                            <div class="text-ul">
+                                <ul>
+                                    <li>Safety shoes</li>
+                                    <li>Safety helmets</li>
+                                    <li>Safety Glasses</li>
+                                    <li>Goggles</li>
+                                    <li>Working gloves</li>
+                                    <li>Rubber boots</li>
+                                    <li>Ear defenders</li>
+                                    <li>Safety clothes</li>
+                                    <li>Coverall</li>
+                                    <li>Safety Belts</li>
+                                    <li>Ear plugs</li>
+                                    <li>Face shields</li>
+                                    <li>Welding goggles</li>
+                                    <li>Dust mask</li>
+                                    <li>Cotton gloves</li>
+                                    <li>Harness and Lanyards</li>
+                                    <li>Smoke detectors</li>
+                                    <li>Welding glasses</li>
+                                </ul>
+                            </div>
+                            <div class="safety">
+                                <div class="safety-img">
+                                    <div class="safety-img-ch">
+                                        <div class="safety-img-ch-min">
+                                            <img src="assets/img/Safety_Harness_and_Lanyards-removebg-preview.png"
+                                                alt="">
+                                            <img src="assets/img/Safety_vest-removebg-preview.png" alt="">
+                                        </div>
+                                        <div style="margin-top: 40px;">
+                                            <img src="assets/img/Safety_item-removebg-preview.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="general-tools" class="section hidden">
+                        <h2>General Tools & Accessories</h2>
+                        <div class="safety-dev">
+                            <div class="text-ul">
+                                <ul>
+                                    <li>Tool Boxes</li>
+                                    <li>Sockets</li>
+                                    <li>Screw Drivers</li>
+                                    <li>Wrenches and Spanners</li>
+                                    <li>Pliers</li>
+                                    <li>Hammers</li>
+                                    <li>Hex Keys</li>
+                                    <li>Chisels and Punches</li>
+                                </ul>
+                            </div>
+                            <div class="safety" style="width: 65%; display: flex; justify-content: center;">
+                                <div class="safety-img">
+                                    <div class="safety-img-ch">
+                                        <div class="safety-img-ch-min">
+                                            <img src="assets/img/Tool-Boxes.avif" alt="">
+                                            <img src="assets/img/Wrenches-and-Spanners.webp" alt="">
+                                            <img src="assets/img/Hammers-removebg-preview.png" alt="">
+                                            <img src="assets/img/drill.webp" alt="">
+                                        </div>
+                                        <div style="margin-top: 40px;">
+                                            <img src="assets/img/grinding-removebg-preview.png" alt="">
+                                            <img src="assets/img/Hex-Keys-removebg-preview.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="construction-materials" class="section">
+                        <h2>Civil & Construction Materials</h2>
+                        <div class="safety-dev">
+                            <div class="text-ul">
+                                <ul>
+                                    <li>
+                                        Western / Eastern Water Closets, Water proofing materials, Gypsum boards,
+                                        Asphalt concrete base course
+                                    </li>
+                                    <li>
+                                        Galvanized Materials, Wood, Steel Ladders, Plaster bead & Lath, Gypsum board
+                                        moisture Resistant
+                                    </li>
+                                    <li>
+                                        Lavatory water Mounted, Paint, Sand Asphalt,
+                                    </li>
+                                    <li>
+                                        Hallow Metal Doors, Aluminum Doors
+                                    </li>
+                                    <li>
+                                        Aluminum Windows
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="safety" style=" display: flex; justify-content: center;">
+                                <div class="safety-img">
+                                    <div class="safety-img-ch">
+                                        <div class="safety-img-ch-min">
+                                            <img src="assets/img/Galvanized_Materials.jpg" alt="">
+                                            <img src="assets/img/Gypsum_boards.avif" alt="">
+                                            <img src="assets/img/Paint.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="electrical-mechanical" class="section hidden">
+                        <h2>Electrical & Mechanical</h2>
+                        <div class="safety-dev">
+                            <div class="text-ul">
+                                <ul>
+                                    <li>
+                                        Contactors, Switches, Breakers, Relays, Time delay relays.
+                                    </li>
+                                    <li>
+                                        Transformers, voltage regulators, Distribution boards.
+                                    </li>
+                                    <li>
+                                        Insulators, Lightning arrestors, Power cable, sockets, Fuses.
+                                    </li>
+                                    <li>
+                                        Rigid and Gl conducts, PVC conduits, Flexible conduits.
+                                    </li>
+                                    <li>
+                                        Cable legs, Extension cords, Extension drums, Ballasts.
+                                    </li>
+                                    <li>
+                                        Halogen lamps, Sodium lamps, Fluorescent Fixtures.
+                                    </li>
+                                    <li>
+                                        Projection Lamp, Mercury Vapor lamps, Miniature lamps.
+                                    </li>
+                                    <li>
+                                        Dimmers, Industrial warehouse bay fixtures, Explosion Proof fixtures.
+                                    </li>
+                                    <li>
+                                        Emergency lightings, DC lamps, Measuring instruments.
+                                    </li>
+                                    <li>
+                                        and Insulation testers, Photocell sensors, Insulation tapes.
+                                    </li>
+                                    <li>
+                                        Wiring accessories, AC-DC Motors, Industrial fans, Control circuits.
+                                    </li>
+                                    <li>
+                                        Solenoid valves, Actuators, Control circuits, Limit switches, Micro switches
+                                    </li>
+                                    <li>
+                                        Overload relays etc
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="instrumentations" class="section">
+                        <h2>Instrumentations</h2>
+                        <div>
+                            <h5>
+                                FLUID TECHNOLOGY PRODUCTS:
+                            </h5>
+                            <ul>
+                                <li>
+                                    Phase behavior system
+                                </li>
+                                <li>
+                                    High pressure viscometer like bench to model and Rolling ball viscometer
+                                </li>
+                                <li>
+                                    High pressure Cylinder
+                                </li>
+                                <li>
+                                    Gasometer/Gas Tester
+                                </li>
+                                <li>
+                                    Digital positive Displacement pumps
+                                </li>
+                                <li>
+                                    Enhance oil recovery systems
+                                </li>
+                                <li>
+                                    Pressure calibration like piston gauges, digital pressure cells, pressure range 1
+                                    k/psi to 20 k/psi
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h5>
+                                ANALYZERS:
+                            </h5>
+                            <ul>
+                                <li>
+                                    Oxygen Analyzers
+                                </li>
+                                <li>
+                                    Thermal Conductivity Analyzers
+                                </li>
+                                <li>
+                                    Acoustic Cement Analyzers
+                                </li>
+                                <li>
+                                    Corrosion and acid Analyzers
+                                </li>
+                                <li>
+                                    Toxic and Flammable gas Analyzers
+                                </li>
+                                <li>
+                                    Moisture Measurement Analyzers
+                                </li>
+                                <li>
+                                    Portable Natural Gas Heating Analyzers
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h5>
+                                TRANSMITTERS:
+                            </h5>
+                            <ul>
+                                <li>
+                                    Flow transmitters
+                                </li>
+                                <li>
+                                    Level transmitters
+                                </li>
+                                <li>
+                                    Pressure transmitters
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="piping-materials" class="section hidden">
+                        <h2>Piping Materials</h2>
+                        <div class="safety-dev">
+                            <div class="text-ul">
+                                <ul>
+                                    <li>Carbon Steel Pipes</li>
+                                    <li>Barrier Insulation</li>
+                                    <li>Metal Expansion Joint</li>
+                                    <li>Gaskets</li>
+                                    <li>Elbow Stainless Steel</li>
+                                    <li>Elbow Steel</li>
+                                    <li>Hose Connector</li>
+                                    <li>Tee for tube coupling</li>
+                                    <li>Sampling Valve</li>
+                                </ul>
+                            </div>
+                            <div class="safety" style="width: 65%; display: flex; justify-content: center;">
+                                <div class="safety-img">
+                                    <div class="safety-img-ch">
+                                        <div class="safety-img-ch-min">
+                                            <img src="assets/img/Carbon_Steel_Pipes.jpg" alt="">
+                                            <img src="assets/img/Barrier_Insulation.jpg" alt="">
+                                            <img src="assets/img/Metal_Expansion_Joint.jpg" alt="">
+                                            <img src="assets/img/Gaskets.jpg" alt="">
+                                        </div>
+                                        <div style="margin-top: 40px;">
+                                            <img src="assets/img/Elbow_Stainless_Steel.jpg" alt="">
+                                            <img src="assets/img/Sampling_Valve.jpg" alt="">
+                                            <img src="assets/img/MAT_555.jpg" alt="">
+                                            <img src="assets/img/MAT_556.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add other sections similarly -->
+                </div>
+            </div>
+
+        </section><!-- /Service Details Section -->
+
+    </main>
+
+    <footer id="footer" class="footer accent-background">
+
+        <div class="container footer-top">
+          <div class="row gy-4">
+            <div class="col-lg-4 col-md-12 footer-about">
+              <a href="index.html" class="logo d-flex align-items-center">
+                <span class="sitename">INDUSTRIAL RESOURCES ARABIA </span>
+              </a>
+              <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta
+                donna mare fermentum iaculis eu non diam phasellus.</p>
+              <div class="social-links d-flex mt-4">
+                <a href=""><i class="bi bi-twitter-x"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+    
+            <div class="col-lg-2 col-5 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Terms of service</a></li>
+                <li><a href="#">Privacy policy</a></li>
+              </ul>
+            </div>
+    
+            <div class="col-lg-3 col-7 footer-links">
+              <h4>Our Services</h4>
+              <ul>
+                <li><a href="#">Contracting-Electromechanical</a></li>
+                <li><a href="#">Trading-Industrial Materials & Spares</a></li>
+                <li><a href="#">Trading-Office Supplies</a></li>
+                <li><a href="#">Trading-Cleaning Materials</a></li>
+                <li><a href="#">Logistics</a></li>
+                <li><a href="#">Equipment Rental</a></li>
+              </ul>
+            </div>
+    
+            <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+              <h4>Contact Us</h4>
+              <p>WMRF+RR4</p>
+              <p>Dhahran Jubail Expy</p>
+              <p> Saudi Arabia</p>
+              <p class="mt-4"><strong>Phone:</strong> <span>+966-133-362-1234</span></p>
+              <p><strong>Email:</strong> <span>info@ira.sa</span></p>
+            </div>
+    
+          </div>
+        </div>
+    
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+    <script>
+        // Select all sidebar items and sections
+        const sidebarItems = document.querySelectorAll('.sidebar li');
+        const sections = document.querySelectorAll('.section');
+
+        // Add click event listener to each sidebar item
+        sidebarItems.forEach(item => {
+            item.addEventListener('click', () => {
+                // Remove active class from all sections
+                sections.forEach(section => section.classList.remove('active'));
+
+                // Hide all sections
+                sections.forEach(section => section.classList.add('hidden'));
+
+                // Show the selected section
+                const sectionId = item.getAttribute('data-section');
+                document.getElementById(sectionId).classList.add('active');
+                document.getElementById(sectionId).classList.remove('hidden');
+            });
+        });
+
+    </script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
