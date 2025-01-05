@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Service Details - INDUSTRIAL RESOURCES ARABIA</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- Favicons -->
+    <link href="assets/img/logo-IRA.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <style>
+        .page-title {
+            background-image: url(assets/img/bg_hero_1.webp);
+            background-position: bottom;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .page-title .heading {
+            background-color: #2b00005e;
+        }
+
+        .page-title nav {
+            background-color: #07000069 !important;
+        }
+
+        .container-22 {
+            display: flex;
+            width: 90%;
+            margin: 20px auto;
+            gap: 20px;
+        }
+
+        #safety-items {
+            padding: 10px 0;
+        }
+
+        .content div {
+            padding: 0;
+        }
+
+        #service-details .safety-dev {
+            display: flex !important;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .safety-img-ch div {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+        }
+
+        #service-details .safety-dev img {
+            width: 230px;
+            height: 230px;
+        }
+
+        /* Sidebar styling */
+        .sidebar {
+            flex: 1;
+            max-width: 250px;
+            background: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .sidebar h3 {
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sidebar li {
+            margin-bottom: 10px;
+            cursor: pointer;
+            padding: 8px;
+            border-radius: 4px;
+            background: #f5f5f5;
+            transition: background 0.3s;
+        }
+
+        .sidebar li:hover {
+            background: #e9ecef;
+        }
+
+        .sidebar li:active {
+            background: #e9ecef;
+        }
+
+        /* Content area styling */
+        .content {
+            flex: 3;
+            background: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .section {
+            display: none;
+        }
+
+        .section.active {
+            display: block;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .text-ul ul li {
+            padding: 5px 8px;
+            font-weight: 500;
+            font-family: "Poppins", sans-serif;
+            font-size: 12px;
+        }
+
+        .main .content div ul {
+            list-style-type: disc !important;
+            padding-left: 20px;
+            list-style: 20px;
+        }
+
+
+        #piping-materials img {
+            width: 135px !important;
+            height: 150px !important;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+
+            .sidebar {
+                max-width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+
+</head>
+
+<body class="service-details-page">
+
+    <header id="header" class="header fixed-top">
+
+        <div class="topbar d-flex align-items-center">
+            <div class="container d-flex justify-content-center justify-content-md-between">
+                <div class="contact-info d-flex align-items-center">
+                    <i class="bi bi-envelope d-flex align-items-center">
+                        <a href="mailto:info@ira.sa" style="text-decoration: none; color: inherit;">
+                            info@ira.sa
+                        </a>
+                    </i>
+                    <i class="bi bi-phone d-flex align-items-center ms-4"><span>+966-13-362-1234</span></i>
+                </div>
+                <div class="social-links d-none d-md-flex align-items-center">
+                    <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+                    <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- End Top Bar -->
+
+        <div class="branding d-flex align-items-cente">
+
+            <div class="container position-relative d-flex align-items-center justify-content-between rotat"
+                style="padding-bottom: 6px;">
+                <a href="index.html" class="logo d-flex align-items-center rotat">
+                    <img src="assets/img/logo-IRA.png" alt="">
+                    <SPan data-key="full_name">
+                        INDUSTRIAL RESOURCES ARABIA CO. LTD
+                    </SPan>
+                </a>
+
+                <nav id="navmenu" class="navmenu">
+                    <ul class="rotat">
+                        <li><a href="index.html" data-key="Home">Home<br></a></li>
+                        <li><a href="about.html" data-key="about">About</a></li>
+                        <li><a href="service-details.html" class="active" data-key="Services">Services</a></li>
+                        <li><a href="contact.html" data-key="contact">Contact</a></li>
+                        <li class="nav-item">
+                            <select id="languageSelector" class="form-control">
+                                <option value="en" data-key="en">EN</option>
+                                <option value="ar" data-key="ar">AR</option>
+                            </select>
+                        </li>
+                    </ul>
+                    <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+                </nav>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <main class="main">
+
+        <!-- Page Title -->
+        <div class="page-title">
+            <div class="heading">
+                <div class="container">
+                    <div class="row d-flex justify-content-center text-center">
+                        <div class="col-lg-8">
+                            <h1 data-key="what"></h1>
+                            <p class="mb-0 paragraph" data-key="whatpp"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="breadcrumbs">
+                <div class="container">
+                    <ol class="rotat">
+                        <li><a href="index.html" data-key="Home"></a></li>
+                        <li class="current" data-key="Services"></li>
+                    </ol>
+                </div>
+            </nav>
+        </div><!-- End Page Title -->
+
+        <!-- Service Details Section -->
+        <section id="service-details" class="">
+
+            <div class="container container-22 rotat">
+                <div class="sidebar">
+                    <h3 data-key="ourServices"></h3>
+                    <ul>
+                        <li class="paragraphlinav" data-section="safety-items" data-key="servicesTit1"></li>
+                        <li class="paragraphlinav" data-section="general-tools" data-key="servicesTit2"></li>
+                        <li class="paragraphlinav" data-section="construction-materials" data-key="servicesTit3"></li>
+                        <li class="paragraphlinav" data-section="electrical-mechanical" data-key="servicesTit4"></li>
+                        <li class="paragraphlinav" data-section="instrumentations" data-key="servicesTit5"></li>
+                        <li class="paragraphlinav" data-section="piping-materials" data-key="servicesTit6"></li>
+                    </ul>
+                </div>
+                <div class="content">
+                    <div id="safety-items" class="section active">
+                        <h2 data-key="servicesTit1">Safety Items</h2>
+                        <div class="safety-dev">
+                            <div class="text-ul">
+                                <ul>
+                                    <li class="paragraphli" data-key="safetyItem1"></li>
+                                    <li class="paragraphli" data-key="safetyItem2"></li>
+                                    <li class="paragraphli" data-key="safetyItem3"></li>
+                                    <li class="paragraphli" data-key="safetyItem4"></li>
+                                    <li class="paragraphli" data-key="safetyItem5"></li>
+                                    <li class="paragraphli" data-key="safetyItem6"></li>
+                                    <li class="paragraphli" data-key="safetyItem7"></li>
+                                    <li class="paragraphli" data-key="safetyItem8"></li>
+                                    <li class="paragraphli" data-key="safetyItem9"></li>
+                                    <li class="paragraphli" data-key="safetyItem10"></li>
+                                    <li class="paragraphli" data-key="safetyItem11"></li>
+                                    <li class="paragraphli" data-key="safetyItem12"></li>
+                                    <li class="paragraphli" data-key="safetyItem13"></li>
+                                    <li class="paragraphli" data-key="safetyItem14"></li>
+                                    <li class="paragraphli" data-key="safetyItem15"></li>
+                                    <li class="paragraphli" data-key="safetyItem16"></li>
+                                    <li class="paragraphli" data-key="safetyItem17"></li>
+                                    <li class="paragraphli" data-key="safetyItem18"></li>
+                                </ul>
+                            </div>
+                            <div class="safety">
+                                <div class="safety-img">
+                                    <div class="safety-img-ch">
+                                        <div class="safety-img-ch-min">
+                                            <img src="assets/img/Safety_Harness_and_Lanyards-removebg-preview.png"
+                                                alt="">
+                                            <img src="assets/img/Safety_vest-removebg-preview.png" alt="">
+                                        </div>
+                                        <div style="margin-top: 40px;">
+                                            <img src="assets/img/Safety_item-removebg-preview.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="general-tools" class="section hidden">
+                        <h2 data-key="servicesTit2"></h2>
+                        <div class="safety-dev">
+                            <div class="text-ul">
+                                <ul>
+                                    <li class="paragraphli" data-key="accessoriesItem1"></li>
+                                    <li class="paragraphli" data-key="accessoriesItem2"></li>
+                                    <li class="paragraphli" data-key="accessoriesItem3"></li>
+                                    <li class="paragraphli" data-key="accessoriesItem4"></li>
+                                    <li class="paragraphli" data-key="accessoriesItem5"></li>
+                                    <li class="paragraphli" data-key="accessoriesItem6"></li>
+                                    <li class="paragraphli" data-key="accessoriesItem7"></li>
+                                    <li class="paragraphli" data-key="accessoriesItem8"></li>
+                                </ul>
+                            </div>
+                            <div class="safety" style="width: 65%; display: flex; justify-content: center;">
+                                <div class="safety-img">
+                                    <div class="safety-img-ch">
+                                        <div class="safety-img-ch-min">
+                                            <img src="assets/img/Tool-Boxes.avif" alt="">
+                                            <img src="assets/img/Wrenches-and-Spanners.webp" alt="">
+                                            <img src="assets/img/Hammers-removebg-preview.png" alt="">
+                                            <img src="assets/img/drill.webp" alt="">
+                                        </div>
+                                        <div style="margin-top: 40px;">
+                                            <img src="assets/img/grinding-removebg-preview.png" alt="">
+                                            <img src="assets/img/Hex-Keys-removebg-preview.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="construction-materials" class="section">
+                        <h2 data-key="servicesTit3"></h2>
+                        <div class="safety-dev">
+                            <div class="text-ul">
+                                <ul>
+                                    <li class="paragraphli" data-key="civilItem1"></li>
+                                    <li class="paragraphli" data-key="civilItem2"></li>
+                                    <li class="paragraphli" data-key="civilItem3"></li>
+                                    <li class="paragraphli" data-key="civilItem4"></li>
+                                    <li class="paragraphli" data-key="civilItem5"></li>
+                                </ul>
+                            </div>
+                            <div class="safety" style=" display: flex; justify-content: center;">
+                                <div class="safety-img">
+                                    <div class="safety-img-ch">
+                                        <div class="safety-img-ch-min">
+                                            <img src="assets/img/Galvanized_Materials.jpg" alt="">
+                                            <img src="assets/img/Gypsum_boards.avif" alt="">
+                                            <img src="assets/img/Paint.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="electrical-mechanical" class="section hidden">
+                        <h2 data-key="servicesTit4"></h2>
+                        <div class="safety-dev">
+                            <div class="text-ul">
+                                <ul>
+                                    <li class="paragraphli" data-key="lectricalItem1"></li>
+                                    <li class="paragraphli" data-key="lectricalItem2"></li>
+                                    <li class="paragraphli" data-key="lectricalItem3"></li>
+                                    <li class="paragraphli" data-key="lectricalItem4"></li>
+                                    <li class="paragraphli" data-key="lectricalItem5"></li>
+                                    <li class="paragraphli" data-key="lectricalItem6"></li>
+                                    <li class="paragraphli" data-key="lectricalItem7"></li>
+                                    <li class="paragraphli" data-key="lectricalItem8"></li>
+                                    <li class="paragraphli" data-key="lectricalItem9"></li>
+                                    <li class="paragraphli" data-key="lectricalItem10"></li>
+                                    <li class="paragraphli" data-key="lectricalItem11"></li>
+                                    <li class="paragraphli" data-key="lectricalItem12"></li>
+                                    <li class="paragraphli" data-key="lectricalItem13"></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="instrumentations" class="section">
+                        <h2 data-key="servicesTit5"></h2>
+                        <div>
+                            <h5 data-key="fluid"></h5>
+                            <ul>
+                                <li class="paragraphli" data-key="fluidItem1"></li>
+                                <li class="paragraphli" data-key="fluidItem2"></li>
+                                <li class="paragraphli" data-key="fluidItem3"></li>
+                                <li class="paragraphli" data-key="fluidItem4"></li>
+                                <li class="paragraphli" data-key="fluidItem5"></li>
+                                <li class="paragraphli" data-key="fluidItem6"></li>
+                                <li class="paragraphli" data-key="fluidItem7"></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h5 data-key="analyzers"></h5>
+                            <ul>
+                                <li class="paragraphli" data-key="analyzersItem1"></li>
+                                <li class="paragraphli" data-key="analyzersItem2"></li>
+                                <li class="paragraphli" data-key="analyzersItem3"></li>
+                                <li class="paragraphli" data-key="analyzersItem4"></li>
+                                <li class="paragraphli" data-key="analyzersItem5"></li>
+                                <li class="paragraphli" data-key="analyzersItem6"></li>
+                                <li class="paragraphli" data-key="analyzersItem7"></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h5 data-key="transmitters"></h5>
+                            <ul>
+                                <li class="paragraphli" data-key="transmittersItem1"></li>
+                                <li class="paragraphli" data-key="transmittersItem2"></li>
+                                <li class="paragraphli" data-key="transmittersItem3"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="piping-materials" class="section hidden">
+                        <h2 data-key="servicesTit6" data-key="Pipes"></h2>
+                        <div class="safety-dev">
+                            <div class="text-ul">
+                                <ul>
+                                    <li class="paragraphli" data-key="PipesItem1"></li>
+                                    <li class="paragraphli" data-key="PipesItem2"></li>
+                                    <li class="paragraphli" data-key="PipesItem3"></li>
+                                    <li class="paragraphli" data-key="PipesItem4"></li>
+                                    <li class="paragraphli" data-key="PipesItem5"></li>
+                                    <li class="paragraphli" data-key="PipesItem6"></li>
+                                    <li class="paragraphli" data-key="PipesItem7"></li>
+                                    <li class="paragraphli" data-key="PipesItem8"></li>
+                                    <li class="paragraphli" data-key="PipesItem9"></li>
+                                </ul>
+                            </div>
+                            <div class="safety" style="width: 65%; display: flex; justify-content: center;">
+                                <div class="safety-img">
+                                    <div class="safety-img-ch">
+                                        <div class="safety-img-ch-min">
+                                            <img src="assets/img/Carbon_Steel_Pipes.jpg" alt="">
+                                            <img src="assets/img/Barrier_Insulation.jpg" alt="">
+                                            <img src="assets/img/Metal_Expansion_Joint.jpg" alt="">
+                                            <img src="assets/img/Gaskets.jpg" alt="">
+                                        </div>
+                                        <div style="margin-top: 40px;">
+                                            <img src="assets/img/Elbow_Stainless_Steel.jpg" alt="">
+                                            <img src="assets/img/Sampling_Valve.jpg" alt="">
+                                            <img src="assets/img/MAT_555.jpg" alt="">
+                                            <img src="assets/img/MAT_556.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add other sections similarly -->
+                </div>
+            </div>
+
+        </section><!-- /Service Details Section -->
+
+    </main>
+
+    <footer id="footer" class="footer accent-background">
+
+        <div class="container footer-top">
+            <div class="row gy-4 rotat">
+                <div class="col-lg-4 col-md-12 footer-about text_right">
+                    <a href="index.html" class="logo d-flex align-items-center">
+                        <span class="sitename" data-key="footerTag1"></span>
+                    </a>
+                    <p data-key="footerText" class="footerText paragraphli"></p>
+                    <div class="social-links d-flex mt-4 ">
+                        <a href=""><i class="bi bi-twitter-x"></i></a>
+                        <a href=""><i class="bi bi-facebook"></i></a>
+                        <a href=""><i class="bi bi-instagram"></i></a>
+                        <a href=""><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-5 footer-links text_center">
+                    <h4 data-key="footerTag2"></h4>
+                    <ul class="text_center">
+                        <li><a href="index.html" data-key="usefulLinks1"></a></li>
+                        <li><a href="about.html" data-key="usefulLinks2"></a></li>
+                        <li><a href="service-details.html" data-key="usefulLinks3"></a></li>
+                        <li><a href="firstService.html" data-key="usefulLinks4"></a></li>
+                        <li><a href="firstService.html" data-key="usefulLinks5"></a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-7 footer-links text_center">
+                    <h4 data-key="footerTag3"></h4>
+                    <ul>
+                        <li><a href="firstService.html" data-key="ourServicesFooter1"></a></li>
+                        <li><a href="firstService.html" data-key="ourServicesFooter2"></a></li>
+                        <li><a href="firstService.html" data-key="ourServicesFooter3"></a></li>
+                        <li><a href="firstService.html" data-key="ourServicesFooter4"></a></li>
+                        <li><a href="firstService.html" data-key="ourServicesFooter5"></a></li>
+                        <li><a href="firstService.html" data-key="ourServicesFooter6"></a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-12 footer-contact text-center text_center">
+                    <h4 data-key="footerTag4"></h4>
+                    <p>WMRF+RR4</p>
+                    <p data-key="contactFooter1"></p>
+                    <p data-key="contactFooter2"></p>
+                    <p class="mt-4"><strong data-key="contactFooter3"></strong> <span>+966-13-362-1234</span></p>
+                    <p><strong data-key="contactFooter4"></strong> <span>info@ira.sa</span></p>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+    <script>
+        // Select all sidebar items and sections
+        const sidebarItems = document.querySelectorAll('.sidebar li');
+        const sections = document.querySelectorAll('.section');
+
+        // Add click event listener to each sidebar item
+        sidebarItems.forEach(item => {
+            item.addEventListener('click', () => {
+                // Remove active class from all sections
+                sections.forEach(section => section.classList.remove('active'));
+
+                // Hide all sections
+                sections.forEach(section => section.classList.add('hidden'));
+
+                // Show the selected section
+                const sectionId = item.getAttribute('data-section');
+                document.getElementById(sectionId).classList.add('active');
+                document.getElementById(sectionId).classList.remove('hidden');
+            });
+        });
+
+    </script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
