@@ -219,7 +219,7 @@ let translations = {
     about: 'About',
     Services: 'Services',
     contact: 'Contact',
-    full_name: 'INDUSTRIAL RESOURCES ARABIA CO. LTD',
+    full_name: 'INDUSTRIAL RESOURCES ARABIA CO',
     hero_text1: 'Your trusted partner across diverse industries',
     hero_text2: 'We are a leading provider of comprehensive industrial services, dedicated to supporting businesses across a wide range of sectors. With a strong commitment to quality, innovation, and safety, we deliver tailored solutions that help our clients optimize operations, enhance efficiency, and achieve sustainable growth.',
     hero_text3: 'Our services span multiple industries, including manufacturing, energy, construction, oil and gas, and logistics. From maintenance and repair to specialized engineering solutions, we bring expertise and cutting-edge technology to every project.',
