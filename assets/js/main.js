@@ -774,7 +774,7 @@ function applyFont(language) {
 
 
 document.addEventListener('DOMContentLoaded', function () {
-  let savedLanguage = localStorage.getItem('selectedLanguage') || 'ar';
+  let savedLanguage = localStorage.getItem('selectedLanguage') || 'en';
   document.getElementById('languageSelector').value = savedLanguage;
   applyTranslations(savedLanguage);
   applyFont(savedLanguage);
